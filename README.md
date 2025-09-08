@@ -1,4 +1,4 @@
-# SSTEX  
+# SSTeX  
 Convert simplified text into valid LaTeX code.  
 
 ## Overview  
