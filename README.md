@@ -14,3 +14,13 @@ Instead of remembering dozens of LaTeX commands, you write with minimal markup (
 - Handles sections, lists, and formatting.  
 - Lightweight, portable, no external dependencies.  
 - Designed for quick drafting and prototyping of LaTeX documents.
+
+# Instructions
+1. Download the latest release of SSTeX from Releases.
+2. Put "sstex.py" in the folder with your source file.
+3. Run SSTeX using `python sstex.py`.
+4. Enter the name of your source file.
+5. Enter the name of your output file.
+6. The output file should be created in the same folder.
+7. Profit.
+
