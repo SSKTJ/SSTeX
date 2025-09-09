@@ -78,6 +78,16 @@ for i in x:
         s = "\\end{document}\n"
         out.write(s)
 
+    elif i.startswith("#table "):
+        arr = i.split()
+        s = "\\begin{tabular}{" + arr[1] + "}"
+        out.write(s)
+        s="\\hline"
+    
+    elif i.startswith("#endtable"):
+        s ="\\end{tabular}"
+        out.write(s)
+
     else:
         out.write(i)
 

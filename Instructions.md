@@ -5,4 +5,3 @@
 4. Enter the name of your source file.
 5. Enter the name of your output file.
 6. The output file should be created in the same folder.
-7. Profit.
